@@ -8,6 +8,14 @@
 	<name>learn-metrics</name>
 	<url>http://maven.apache.org</url>
 
+	<repositories>
+		<repository>
+			<id>newrelic</id>
+			<name>newrelic</name>
+			<url>http://download.newrelic.com/</url>
+		</repository>
+	</repositories>
+
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -29,6 +37,11 @@
 			<groupId>com.yammer.metrics</groupId>
 			<artifactId>metrics-graphite</artifactId>
 			<version>2.2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>newrelic.java-agent</groupId>
+			<artifactId>newrelic-api</artifactId>
+			<version>2.12.0</version>
 		</dependency>
 	</dependencies>
 
@@ -106,6 +119,7 @@
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
 				</configuration>
+				<version>2.9</version>
 			</plugin>
 		</plugins>
 	</build>

@@ -9,3 +9,5 @@ target
 *.jar
 *.war
 *.ear
+
+newrelic.yml
