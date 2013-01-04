@@ -1,4 +1,4 @@
-package org.example.metrics.cli;
+package org.example.newrelic.cli;
 
 import java.util.Random;
 
